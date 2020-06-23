@@ -1,0 +1,34 @@
+body{
+    color: white;
+}
+
+.img-div{
+    background-color: rgba(44, 20, 20, 0.678);
+}
+
+li{
+    color: white;
+}
+
+table{
+    color: white;
+}
+
+.form-control{
+    border-color: black;
+}
+
+#textarea{
+    border-color: black;
+}
+
+h1, h2, h3{
+    text-shadow: 2px 2px 2px black;
+}
+p{
+    background:rgba(44, 20, 20, 0.678);
+}
+
+.center{
+    background-color:rgba(44, 20, 20, 0.678);
+}
