@@ -3,32 +3,52 @@ body{
     font-family: 'Roboto', sans-serif;
     background-image: url("../images/wood-591631_1280.jpg");
     background-position: left center;
-    background-repeat: round
+    background-repeat: round;
+    color: white
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .img-div{
-    margin: 50px;
-    padding: 29px;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
     border: solid 10px rgb(2, 2, 2);
     box-shadow: 10px 10px 10px black;
     border-radius: 2mm;
+    background-color: rgba(44, 20, 20, 0.678);
+}
+#nav{
+    margin: 10px 0;
 }
 
-li{
-    font-size: 20px;
+#nav ul{
+    overflow: hidden;
+    background: rgba(44, 20, 20, 0.678);
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-ul{
-    text-align: center;
+#nav li{
+    float: left;
+}
+
+#nav a{
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.7em 6em;
+    font-size: 19px;
 }
 
 p{
     font-size: 20px;
+    background:rgba(44, 20, 20, 0.678);
 }
 
-#loren {
+#rolunk-leiras {
     text-align: justify;
     background-color:rgba(44, 20, 20, 0.678);
 }
@@ -37,12 +57,26 @@ p{
     text-align: center;
 }
 
-#akcios-arak {
+#arak {
     font-size: 30px;
 }
 
-#szolgaltatasok {
+#szolgaltatasok, #referenciak {
     font-size: 25px;
+}
+
+a {
+    color: rgb(155, 147, 147);
+    background-color: rgba(44, 20, 20, 0.678);
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px red;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    text-shadow: 5px 5px 5px black;
+    text-emphasis-color: black;
 }
 
 .center {
@@ -50,18 +84,22 @@ p{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    color: white;
+    background-color:rgba(44, 20, 20, 0.678);
 }
 
 .form-control{
     font-size: 16px;
     padding: 10px;
     margin: 10px;
+    border-color: black;
 }
 
 #textarea{
     font-size: 16px;
     border-width: 2px;
     font-family: 'Roboto', sans-serif;
+    border-color: black;
 }
 
 .irj-div button:hover{
